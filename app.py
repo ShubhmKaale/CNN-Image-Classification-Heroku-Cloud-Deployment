@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from keras.models import load_model
 from keras.preprocessing import image
 import numpy as np
-import gevent.pywsgi
+
 
 app = Flask(__name__)
 
